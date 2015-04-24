@@ -1,0 +1,135 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #A11415;
+}
+
+header {
+  background-color: #4D0000;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #FF46FF;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.nav {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  display: none;
+}
+
+.nav li {
+  display: inline-bloc;
+}
+
+.nav a {
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  border: 1px solid #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #A11415;
+}
+
+.left-nav {
+  float: left;
+  width: 50%;
+  background-color: #4D0000;
+  }
+
+.right-nav {
+  float: right;
+  width: 50%;
+  background-color: #4D0000;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 40px;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #A11415;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+div .about {
+  background-color: #FFF7EB;
+}
+
+.gal1 {
+  width: 50%;
+  float: left;
+}
+.gal2 {
+  width: 50%;
+  margin-bottom: -5px;
+}
+.gal3 {
+  width: 50%;
+  float: left;
+  clear: left;
+}
+.gal4 {
+  width: 50%;
+  margin-bottom: -5px;
+}
+.gal5 {
+  width: 50%;
+  float: left;
+  clear: both;
+}
+.gal6 {
+  width: 50%;
+}
