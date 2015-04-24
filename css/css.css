@@ -207,5 +207,79 @@ h2 {
 .menu img {
   width: 100%;
   padding: 0 1em 0 1em;
+}
 
+.coupons {
+
+}
+
+.coupons p {
+  float: right;
+  clear: left;
+  font: normal 100%/1.5 georgia,serif;
+}
+
+.coupons img {
+  width: 40%;
+}
+
+.coup1 {
+  float: left;
+  clear: right;
+}
+
+.coup2 {
+  float: left;
+  clear: right;
+}
+
+.coup3 {
+  float: left;
+  clear: right;
+}
+
+.rev {
+  background-color: #FFF7EB;
+  clear: both;
+}
+
+.rev h2 {
+  color: #000;
+  margin: 1em 0 0.5 0;
+}
+
+.rev p {
+  font: normal 100%/1.5 georgia,serif;
+  text-align: center;
+}
+
+.contact h4{
+  color: #fff;
+  margin: 0 0 0 1em;
+}
+
+.contact p {
+  color: #fff;
+  font: normal 100%/1.5 georgia,serif;
+  margin: 0 0 1em 1em;
+}
+
+.map {
+  float: right;
+  clear: right;
+}
+
+.mah {
+  float: right;
+  text-align: center;
+}
+
+.map img {
+  width: 50%;
+  float: right;
+  clear: left;
+}
+
+footer {
+  clear: both;
 }
